@@ -15,7 +15,7 @@ const Button = ({ text, setDisplay, display, equation, setEquation }) => {
         } else if (text === "AC") {
             setDisplay("0");
             setEquation("");
-        } else if (equation == "") {
+        } else if (equation === "") {
             setEquation(text);
             setDisplay(text);
         } else if (text === "+/-") {
